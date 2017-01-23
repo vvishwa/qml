@@ -31,6 +31,12 @@ To compile and install from source code, run
 To install a precompiled binary, copy qml.q into the same directory as q.k, and
 copy qml.dll or qml.so into the same directory as q.exe or q. Then run test.q.
 
+If building 32-bit version for kdb+ 32-bit follow below
+    ./configure KXARCH=l32 --build-blas
+    make
+    make test
+    make install
+
 
 Usage
 -----
